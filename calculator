@@ -1,0 +1,19 @@
+while True:
+    choice= input("enter choice(1/2/3/4):")
+    if choice in('1','2','3','4'):
+        a=float(input("enter the number a"))
+        b=float(input("enter the number b"))
+        if choice =='1':
+            print(a+b)
+        elif choice =='2':
+            print(a-b)
+        elif choice =='3':
+            print(a/b)
+        elif choice =='4':
+            print(a*b)
+        next = input("next calculation(y/n):")  
+        if next == "n":
+            break
+else:
+    print("error")             
+
